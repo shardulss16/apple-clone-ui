@@ -1,0 +1,13 @@
+.styled-footer{
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+
+    .footer-container{
+        max-width: 1000px;
+        font-size: 16px;
+        opacity: .75;
+    }
+}

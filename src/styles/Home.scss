@@ -1,0 +1,256 @@
+.styled-home{
+
+    .section-one {
+        background-image: url('../assets/images/wp12391784-apple-vision-pro-wallpapers.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        position: relative;
+
+        .section-data{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            gap: 15px;
+            width: 100%;
+            bottom: 75px;
+            left: 0;
+
+            h2{
+                font-size: xx-large;
+            }
+            span{
+                opacity: .75;
+                font-size: small ;
+            }
+
+            button{
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                color: var(--blue);
+            }
+        }
+    }
+
+    .section-two {
+        background-image: url('../assets/images/iphone-15-pro.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 75vh;
+        position: relative;
+
+        .section-data{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            gap: 15px;
+            width: 100%;
+            top: 75px;
+            left: 0;
+            color: #fff;
+
+            h2{
+                font-size: xx-large;
+            }
+            span{
+                opacity: .75;
+                font-size: small ;
+            }
+
+            button{
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                color: var(--blue);
+            }
+        }
+    }
+
+    .section-three {
+        background-image: url('../assets/images/iphone-15-pro-camera.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 75vh;
+        position: relative;
+
+        .section-data{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            gap: 15px;
+            width: 100%;
+            top: 75px;
+            left: 0;
+            color: black;
+
+            span{
+                opacity: .75;
+                font-size: small ;
+            }
+
+            button{
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                color: var(--blue);
+            }
+        }
+    }
+
+    .section-four{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .section-grid-1{
+            background-image: url('../assets/images/watch_series_9_gps_lte__eopecolsebyq_og.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 75vh;
+            position: relative;
+
+            .section-data{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                gap: 15px;
+                width: 100%;
+                top: 50px;
+                left: 0;
+                color: #fff;
+    
+                span{
+                    color: red;
+                    font-weight: 700;
+                    font-size: small ;
+                }
+    
+                button{
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                    color: var(--blue);
+                }
+            }
+        }
+
+        .section-grid-2{
+            background-image: url('../assets/images/Apple-Watch-Ultra-2-hero-230912.jpg.news_app_ed.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 75vh;
+            position: relative;
+
+            .section-data{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                gap: 15px;
+                width: 100%;
+                top: 50px;
+                left: 0;
+                color: black;
+    
+                span{
+                    color: orange;
+                    font-weight: 700;
+                    font-size: small ;
+                }
+    
+                button{
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                    color: var(--blue);
+                }
+            }
+        }
+    }
+
+
+    .section-five{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .section-grid-1{
+            background-image: url('../assets/images/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117.jpg.landing-big_2x.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 75vh;
+            position: relative;
+
+            .section-data{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                gap: 15px;
+                width: 100%;
+                top: 50px;
+                left: 0;
+                color: black;
+
+                h2{
+                    font-size: xx-large;
+                }
+    
+                button{
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                    color: var(--blue);
+                }
+            }
+        }
+
+        .section-grid-2{
+            background-image: url('../assets/images/Apple_ipadpro-watchseries6-hiit-apple-fitness-plus_041521_big_carousel.jpg.large.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 75vh;
+            position: relative;
+
+            .section-data{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                gap: 15px;
+                width: 100%;
+                top: 50px;
+                left: 0;
+                color: #fff;
+    
+               h2{
+                    font-size: xx-large;
+               }
+    
+                button{
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                    color: var(--blue);
+                }
+            }
+        }
+    }
+}
